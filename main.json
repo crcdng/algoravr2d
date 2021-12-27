@@ -78,7 +78,7 @@
                       {
                        "name":"openWebsite",
                        "type":"string",
-                       "value":"https:\/\/soundcloud.com\/mixmag-1\/welcome-to-the-algorave-movement-mixed-by-yaxu"
+                       "value":"https:\/\/soundcloud.com\/mixmag-1\/welcome-to-the-algorave-movement-mixed-by-yaxu\/"
                       }, 
                       {
                        "name":"openWebsiteTrigger",
@@ -134,7 +134,7 @@
                       {
                        "name":"openWebsite",
                        "type":"string",
-                       "value":"https:\/\/www.toplab.org"
+                       "value":"https:\/\/www.toplap.org"
                       }, 
                       {
                        "name":"openWebsiteTrigger",
@@ -269,7 +269,7 @@
               {
                "name":"mapDescription",
                "type":"string",
-               "value":"toplap Berlin map 2021, made from world-map-starterkip map"
+               "value":"toplab Berlin map 2021, made from world-map-starterkip map"
               }],
        "renderorder":"right-down",
        "tiledversion":"1.7.2",

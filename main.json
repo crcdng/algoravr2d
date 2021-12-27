@@ -97,11 +97,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/www.nyan.cat\/"
-                },
+                }, 
                 {
-                     "name":"openWebsiteTrigger",
-                     "type":"string",
-                     "value":"onaction"
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -120,12 +120,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/www.toplab.org"
-                }
-                ,
+                }, 
                 {
-                     "name":"openWebsiteTrigger",
-                     "type":"string",
-                     "value":"onaction"
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -231,6 +230,27 @@
  "nextlayerid":19,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"see files LICENSE and COPYRIGHT"
+        }, 
+        {
+         "name":"mapLink",
+         "type":"string",
+         "value":"tbd."
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"toplab_berlin"
+        }, 
+        {
+         "name":"map_description",
+         "type":"string",
+         "value":"toplab_berlin assembly at rc3.world"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,

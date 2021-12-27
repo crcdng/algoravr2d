@@ -790,12 +790,6 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-floor-wall",
-         "properties":[
-                {
-                 "name":"tilesetCopyright",
-                 "type":"string",
-                 "value":"CC0"
-                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -823,22 +817,20 @@
          "margin":0,
          "name":"toplap_tiles",
          "spacing":0,
+              "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"toplap Berlin"
+                        }],
          "tilecount":11,
          "tileheight":32,
-         "imageheight":32,
-         "imagewidth":32,
          "tiles":[
                 {
                  "id":0,
                  "image":"tiles_png\/toplap\/Algorave_Logo_32.png",
                  "imageheight":32,
-                 "imagewidth":32,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"toplap Berlin"
-                        }]
+                 "imagewidth":32
                 }, 
                 {
                  "id":1,

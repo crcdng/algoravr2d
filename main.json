@@ -528,6 +528,13 @@
          "imagewidth":64,
          "margin":0,
          "name":"misc_set",
+         "properties": [
+              {
+                  "name": "tilesetCopyright",
+                  "type": "string",
+                  "value": "CC0"
+              }
+          ],
          "spacing":0,
          "tilecount":52,
          "tileheight":32,
@@ -541,6 +548,13 @@
          "imagewidth":512,
          "margin":0,
          "name":"misc",
+         "properties": [
+              {
+                  "name": "tilesetCopyright",
+                  "type": "string",
+                  "value": "CC0"
+              }
+          ],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -647,6 +661,13 @@
          "imagewidth":32,
          "margin":0,
          "name":"10_coffee",
+         "properties": [
+              {
+                  "name": "tilesetCopyright",
+                  "type": "string",
+                  "value": "CC0"
+              }
+          ],
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
@@ -660,6 +681,13 @@
          "imagewidth":32,
          "margin":0,
          "name":"broken_glass_1",
+         "properties": [
+              {
+                  "name": "tilesetCopyright",
+                  "type": "string",
+                  "value": "CC0"
+              }
+          ],
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
@@ -673,6 +701,13 @@
          "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
+         "properties": [
+              {
+                  "name": "tilesetCopyright",
+                  "type": "string",
+                  "value": "CC0"
+              }
+          ],
          "spacing":0,
          "tilecount":9,
          "tileheight":32,

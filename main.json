@@ -134,7 +134,7 @@
                       {
                        "name":"openWebsite",
                        "type":"string",
-                       "value":"https:\/\/www.toplap.org"
+                       "value":"https:\/\/toplap.org"
                       }, 
                       {
                        "name":"openWebsiteTrigger",

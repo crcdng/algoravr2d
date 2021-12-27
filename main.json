@@ -825,6 +825,8 @@
          "spacing":0,
          "tilecount":11,
          "tileheight":32,
+         "imageheight":32,
+         "imagewidth":32,
          "tiles":[
                 {
                  "id":0,

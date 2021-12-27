@@ -247,7 +247,7 @@
          "value":"toplab_berlin"
         }, 
         {
-         "name":"map_description",
+         "name":"mapDescription",
          "type":"string",
          "value":"toplab_berlin assembly at rc3.world"
         }],
@@ -723,24 +723,10 @@
          "tileheight":32,
          "tiles":[
                 {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"exitUrl",
-                         "type":"string",
-                         "value":"fworld:\/\/lobby\/pcb.json#start_toplabberlin"
-                        }],
-                 "type":"EXIT"
+                 "id":0
                 }, 
                 {
-                 "id":1,
-                 "properties":[
-                        {
-                         "name":"startLayer",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"START"
+                 "id":1
                 }, 
                 {
                  "id":2,
@@ -757,14 +743,7 @@
                  "type":"BLOCK"
                 }, 
                 {
-                 "id":4,
-                 "properties":[
-                        {
-                         "name":"silent",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"SILENT"
+                 "id":4
                 }, 
                 {
                  "id":5,
@@ -779,14 +758,7 @@
                  "type":"MISC"
                 }, 
                 {
-                 "id":8,
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/streaming.media.ccc.de\/"
-                        }],
-                 "type":"URL"
+                 "id":8
                 }],
          "tilewidth":32
         }, 

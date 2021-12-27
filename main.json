@@ -249,7 +249,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"toplab_berlin assembly at rc3.world"
+         "value":"default map adapted for 2021, make sure to edit the exitURL, metadata and links"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",

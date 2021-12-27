@@ -42,7 +42,7 @@
                       {
                        "name":"playAudio",
                        "type":"string",
-                       "value":"mp3\/timbregirlelevator.mp3"
+                       "value":"mp3\/helloworld.mp3"
                       }],
                "type":"tilelayer",
                "visible":true,
@@ -254,7 +254,7 @@
               {
                "name":"mapCopyright",
                "type":"string",
-               "value":"see files LICENSE and COPYRIGHT"
+               "value":"see file LICENSE in the repository at https://github.com/i3games/algoravr2d"
               }, 
               {
                "name":"mapLink",

@@ -72,14 +72,24 @@
                "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3410, 3410, 3410, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3410, 3410, 3410, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3410, 3410, 3410, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                "height":20,
                "id":18,
-               "name":"jitsi",
+               "name":"soundcloud",
                "opacity":1,
                "properties":[
                       {
-                       "name":"jitsiRoom",
+                       "name":"openWebsite",
                        "type":"string",
-                       "value":"shared_heyopeops"
-                      }],
+                       "value":"https:\/\/soundcloud.com\/mixmag-1\/welcome-to-the-algorave-movement-mixed-by-yaxuwww.toplab.org"
+                      }, 
+                      {
+                       "name":"openWebsiteTrigger",
+                       "type":"string",
+                       "value":"onaction"
+                      },
+                      {
+                       "name":"openWebsiteTriggerMessage",
+                       "type":"string",
+                       "value":"press SPACE to listen to an Algorave mixed by Yaxu on Soundcloud"
+                     }],
                "type":"tilelayer",
                "visible":true,
                "width":20,
@@ -102,7 +112,12 @@
                        "name":"openWebsiteTrigger",
                        "type":"string",
                        "value":"onaction"
-                      }],
+                      },
+                      {
+                       "name":"openWebsiteTriggerMessage",
+                       "type":"string",
+                       "value":"this link will be updated to our live performance im Mozilla Hubs - check back on 28th."
+                     }],
                "type":"tilelayer",
                "visible":true,
                "width":20,
@@ -125,7 +140,12 @@
                        "name":"openWebsiteTrigger",
                        "type":"string",
                        "value":"onaction"
-                      }],
+                      },
+                      {
+                       "name":"openWebsiteTriggerMessage",
+                       "type":"string",
+                       "value":"press SPACE to visit toplap.org"
+                     }],
                "type":"tilelayer",
                "visible":true,
                "width":20,

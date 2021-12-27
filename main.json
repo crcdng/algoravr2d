@@ -1,11 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "target":"."
-        }
-    },
  "height":20,
  "infinite":false,
  "layers":[
@@ -67,7 +60,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"world://lobby/pcb.json#start_toplabberlin"
+                 "value":"world:\/\/lobby\/pcb.json#start_toplabberlin"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -104,6 +97,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/www.nyan.cat\/"
+                },
+                {
+                     "name":"openWebsiteTrigger",
+                     "type":"string",
+                     "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -121,7 +119,13 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.google.com\/search?q=puppy+pics&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjgt5uWt9XtAhUTnVwKHardA2IQ_AUoAXoECB8QAw&biw=1920&bih=976"
+                 "value":"https:\/\/www.toplab.org"
+                }
+                ,
+                {
+                     "name":"openWebsiteTrigger",
+                     "type":"string",
+                     "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -228,7 +232,7 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"2020.11.25",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -239,13 +243,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-neon-signs",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -368,13 +371,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-overlay",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":512,
          "tileheight":32,
@@ -388,13 +390,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-functionary",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -408,13 +409,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-objects",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":128,
          "tileheight":32,
@@ -428,13 +428,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-colors-128",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":128,
          "tileheight":32,
@@ -448,13 +447,12 @@
          "imagewidth":96,
          "margin":0,
          "name":"23_tisch_weiss_1",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":6,
          "tileheight":32,
@@ -468,13 +466,12 @@
          "imagewidth":128,
          "margin":0,
          "name":"57_zettelfoo",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":12,
          "tileheight":32,
@@ -488,13 +485,12 @@
          "imagewidth":32,
          "margin":0,
          "name":"65_tischdokumente_2",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":2,
          "tileheight":32,
@@ -508,13 +504,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"c3gelb",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -528,13 +523,12 @@
          "imagewidth":64,
          "margin":0,
          "name":"misc_set",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":52,
          "tileheight":32,
@@ -548,13 +542,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"misc",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -661,13 +654,12 @@
          "imagewidth":32,
          "margin":0,
          "name":"10_coffee",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
@@ -681,13 +673,12 @@
          "imagewidth":32,
          "margin":0,
          "name":"broken_glass_1",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
@@ -701,13 +692,12 @@
          "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
@@ -718,7 +708,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"fworld://lobby/pcb.json#start_toplabberlin"
+                         "value":"fworld:\/\/lobby\/pcb.json#start_toplabberlin"
                         }],
                  "type":"EXIT"
                 }, 
@@ -788,13 +778,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-floor-wall",
-         "properties": [
-              {
-                  "name": "tilesetCopyright",
-                  "type": "string",
-                  "value": "CC0"
-              }
-          ],
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -802,6 +791,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":"1.6",
  "width":20
 }

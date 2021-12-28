@@ -76,7 +76,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openTab",
                  "type":"string",
                  "value":"https:\/\/soundcloud.com\/mixmag-1\/welcome-to-the-algorave-movement-mixed-by-yaxu\/"
                 }, 
@@ -104,7 +104,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openTab",
                  "type":"string",
                  "value":"https:\/\/hubs.mozilla.com\/oUQRigk\/toplap-berlin\/"
                 }, 
@@ -160,7 +160,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openTab",
                  "type":"string",
                  "value":"https:\/\/toplap.org"
                 }, 

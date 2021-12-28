@@ -116,7 +116,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"please enter https:\/\/hubs.mozilla.com\/oUQRigk\/toplap-berlin\/ in a new Browser tab to see our live performance on the 28th in Mozilla Hubs"
+                 "value":"please press SPACE and copy the adress that opens https:\/\/hubs.mozilla.com\/oUQRigk\/toplap-berlin\/ into a new Browser tab to see our live performance on the 28th in Mozilla Hubs"
                 }],
          "type":"tilelayer",
          "visible":true,

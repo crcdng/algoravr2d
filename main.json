@@ -132,9 +132,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openTab",
                  "type":"string",
-                 "value":"https:\/\/www.twitch.tv\/toplapberlin"
+                 "value":"https:\/\/www.twitch.tv\/toplapberlin\/"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
